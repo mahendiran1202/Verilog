@@ -1,0 +1,50 @@
+$date
+	Fri Dec 12 12:11:22 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module odd_party_generator_tb $end
+$var wire 5 ! generated [4:0] $end
+$var wire 1 " b $end
+$var reg 4 # a [3:0] $end
+$scope module dut $end
+$var wire 4 $ a [3:0] $end
+$var reg 1 " b $end
+$var reg 5 % generated [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 %
+b1 $
+b1 #
+0"
+b1 !
+$end
+#10
+b10011 !
+b10011 %
+1"
+b11 #
+b11 $
+#20
+b111 !
+b111 %
+0"
+b111 #
+b111 $
+#30
+b11111 !
+b11111 %
+1"
+b1111 #
+b1111 $
+#40
