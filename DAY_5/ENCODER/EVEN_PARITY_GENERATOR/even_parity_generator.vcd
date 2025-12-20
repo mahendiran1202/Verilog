@@ -1,0 +1,49 @@
+$date
+	Fri Dec 12 11:50:28 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module even_parity_generated_tb $end
+$var wire 5 ! generated [4:0] $end
+$var wire 1 " b $end
+$var reg 4 # a [3:0] $end
+$scope module dut $end
+$var wire 4 $ a [3:0] $end
+$var reg 1 " b $end
+$var reg 5 % generated [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+b0 $
+b0 #
+0"
+b0 !
+$end
+#5
+b10001 !
+b10001 %
+1"
+b1 #
+b1 $
+#10
+b10010 !
+b10010 %
+b10 #
+b10 $
+#15
+b11 !
+b11 %
+0"
+b11 #
+b11 $
+#20

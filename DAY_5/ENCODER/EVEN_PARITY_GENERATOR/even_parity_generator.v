@@ -1,0 +1,8 @@
+module even_parity_generator(
+input [3:0]a,
+output reg b,
+output reg [4:0]generated);
+always @(*)begin
+b=^a;
+generated={b,a};
+end endmodule
