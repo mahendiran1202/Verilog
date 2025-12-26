@@ -1,0 +1,117 @@
+$date
+	Thu Dec 25 18:44:10 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module sipo_tb $end
+$var wire 4 ! p_out [3:0] $end
+$var parameter 32 " WIDTH $end
+$var reg 1 # clk $end
+$var reg 1 $ rst $end
+$var reg 1 % s_in $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 % s_in $end
+$var wire 4 & p_out [3:0] $end
+$var parameter 32 ' WIDTH $end
+$var reg 4 ( shift_reg [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 '
+b100 "
+$end
+#0
+$dumpvars
+bx (
+b0x &
+0%
+1$
+0#
+b0x !
+$end
+#5
+b0 !
+b0 &
+b0 (
+1#
+#10
+0#
+0$
+#15
+1#
+#20
+0#
+1%
+#25
+b1 (
+1#
+#30
+0#
+0%
+#35
+b10 (
+1#
+#40
+0#
+1%
+#45
+b101 (
+1#
+#50
+0#
+0%
+#55
+b1 !
+b1 &
+b1010 (
+1#
+#60
+0#
+1%
+#65
+b0 !
+b0 &
+b101 (
+1#
+#70
+0#
+0%
+#75
+b1 !
+b1 &
+b1010 (
+1#
+#80
+0#
+1%
+#85
+b0 !
+b0 &
+b101 (
+1#
+#90
+0#
+0%
+#95
+b1 !
+b1 &
+b1010 (
+1#
+#100
+0#
+1%
+#105
+b0 !
+b0 &
+b101 (
+1#
+#110
+0#
