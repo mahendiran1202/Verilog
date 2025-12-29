@@ -1,0 +1,163 @@
+$date
+	Fri Dec 26 04:00:31 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module johnson_counter_tb $end
+$var wire 4 ! q [3:0] $end
+$var parameter 32 " N $end
+$var reg 1 # clk $end
+$var reg 1 $ enable $end
+$var reg 1 % rst $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 $ enable $end
+$var wire 1 % rst $end
+$var parameter 32 & N $end
+$var reg 4 ' q [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 &
+b100 "
+$end
+#0
+$dumpvars
+bx '
+1%
+0$
+0#
+bx !
+$end
+#5
+b0 !
+b0 '
+1#
+#10
+0#
+#15
+b1000 !
+b1000 '
+1$
+0#
+0%
+#20
+b1100 !
+b1100 '
+1#
+#25
+0#
+#30
+b1110 !
+b1110 '
+1#
+#35
+0#
+#40
+b1111 !
+b1111 '
+1#
+#45
+0#
+#50
+b111 !
+b111 '
+1#
+#55
+0#
+#60
+b11 !
+b11 '
+1#
+#65
+0#
+#70
+b1 !
+b1 '
+1#
+#75
+0#
+#80
+b0 !
+b0 '
+1#
+#85
+0#
+#90
+b1000 !
+b1000 '
+1#
+#95
+0#
+#100
+b1100 !
+b1100 '
+1#
+#105
+0#
+#110
+b1110 !
+b1110 '
+1#
+#115
+0#
+#120
+b1111 !
+b1111 '
+1#
+#125
+0#
+#130
+b111 !
+b111 '
+1#
+#135
+0#
+#140
+b11 !
+b11 '
+1#
+#145
+0#
+#150
+b1 !
+b1 '
+1#
+#155
+0#
+#160
+b0 !
+b0 '
+1#
+#165
+0#
+#170
+b1000 !
+b1000 '
+1#
+#175
+0#
+#180
+b1100 !
+b1100 '
+1#
+#185
+0#
+#190
+b1110 !
+b1110 '
+1#
+#195
+0#
+#200
+b1111 !
+b1111 '
+1#
+#205
+0#
