@@ -20,11 +20,11 @@ always @(*)begin
 case (present_state)
 	s0 : if(data) begin next_state=s1; y=1'b0; end
 
-  	s1 : if (data) begin next_state=s1; y=1'b0; end
-   	else begin next_state=s2; y=1'b0; end
+	s1 : if (data) begin next_state=s1; y=1'b0; end  
+	     else begin next_state=s2; y=1'b0; end
 
    	s2 : if (data) begin next_state=s1; y=1'b1; end
-   	else begin next_state=s0; y=1'b0; end
+   	     else begin next_state=s0; y=1'b0; end
 
 	default: begin next_state=s0; y=1'b0; end
 endcase
